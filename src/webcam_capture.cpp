@@ -52,6 +52,7 @@ int main(int argc, char *argv[])
 
         //show image in a window
         cv::imshow("Output Window", image);
+	cv::imshow("Output Window 2", image);
 
 		//Waits 30 millisecond to check if 'q' key has been pressed. If so, breaks the loop. Otherwise continues.
     	if( (unsigned char)(cv::waitKey(30) & 0xff) == 'q' ) break; 
